@@ -14,3 +14,6 @@ implementation("androidx.compose.ui:ui:<version>")
 implementation("androidx.compose.material:material:<version>")
 implementation("androidx.compose.ui:ui-tooling:<version>")
 implementation("androidx.activity:activity-compose:<version>")
+
+
+### hilt
