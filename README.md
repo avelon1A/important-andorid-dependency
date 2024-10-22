@@ -1,5 +1,5 @@
 # important-andorid-dependency
-dependencies {
+
     // Jetpack Compose UI
     implementation("androidx.compose.ui:ui:<version>")
     implementation("androidx.compose.material:material:<version>")
@@ -43,4 +43,4 @@ dependencies {
     // Accompanist (for additional features)
     implementation("com.google.accompanist:accompanist-coil:<version>")
     implementation("com.google.accompanist:accompanist-navigation-animation:<version>")
-}
+
