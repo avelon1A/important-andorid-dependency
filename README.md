@@ -10,10 +10,11 @@ Below is a list of important dependencies for your Android project using Jetpack
 
 ### Jetpack Compose UI
 ```kotlin
-implementation("androidx.compose.ui:ui:<version>")
-implementation("androidx.compose.material:material:<version>")
-implementation("androidx.compose.ui:ui-tooling:<version>")
-implementation("androidx.activity:activity-compose:<version>")
+implementation("io.insert-koin:koin-android:4.0.0")
+implementation("io.insert-koin:koin-androidx-compose:4.0.0")
+implementation("io.coil-kt.coil3:coil-compose:3.0.0-rc01")
+implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.0-rc01")
+implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 
 
-### hilt
