@@ -19,4 +19,3 @@ implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 ```
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
