@@ -21,6 +21,23 @@ implementation ("io.ktor:ktor-client-android:2.3.2")
 implementation ("io.ktor:ktor-client-gson:2.3.2")
 implementation ("io.ktor:ktor-client-content-negotiation:2.3.2")
 implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.2")
+
+hiltAndroid = "2.51.1"
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+implementation (libs.hilt.android)
+ksp (libs.hilt.android.compiler)
+
+    implementation (libs.androidx.room.runtime)
+    annotationProcessor (libs.androidx.room.compiler)
+    ksp (libs.androidx.room.compiler)
+
+roomCompiler = "2.6.1"
+roomRuntime = "2.6.1"
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+
+
 ```
 
 
