@@ -37,6 +37,12 @@ roomRuntime = "2.6.1"
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 
+datastorePreferences = "1.1.1"
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+
+implementation (libs.androidx.datastore.preferences)
+
+
 
 ```
 
