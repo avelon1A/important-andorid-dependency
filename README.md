@@ -7,6 +7,7 @@ A brief description of your project goes here. Explain its purpose, features, an
 ## Important Android Dependencies
 
 Below is a list of important dependencies for your Android project using Jetpack Compose and other libraries.
+dependecy
 
 ### Jetpack Compose UI
 ```kotlin
