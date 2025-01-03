@@ -41,6 +41,12 @@ datastorePreferences = "1.1.1"
 androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
 
 implementation (libs.androidx.datastore.preferences)
+
+
+ksp = "2.0.20-1.0.24"
+ alias(libs.plugins.ksp)
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
 ```
 
 
