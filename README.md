@@ -1,4 +1,4 @@
-# Important Android Dependencies
+#  Dependencies
 
 Below is a list of important dependencies for your Android project using Jetpack Compose and other libraries.
 
