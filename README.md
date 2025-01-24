@@ -62,3 +62,8 @@ datastorePreferences = "1.1.1"
 androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
 implementation (libs.androidx.datastore.preferences)
 ```
+### Pagination
+```
+ implementation("androidx.paging:paging-runtime:3.3.5")
+ implementation("androidx.paging:paging-compose:3.3.5")
+```
